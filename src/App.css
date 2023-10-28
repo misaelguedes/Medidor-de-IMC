@@ -70,3 +70,13 @@ button:hover {
 .obesidade, .obesidade-severa, .obesidade-morbida {
     color: red;
 }
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 80vw;
+    }
+
+    .img img {
+        width: 70vw;
+    }
+}
