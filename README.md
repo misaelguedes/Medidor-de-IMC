@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+<p>
+    <img src="src/assets/preview.png" alt="Prévia do Site"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🖥️ Projeto
+Este é um site simples desenvolvido para calcular o IMC (Índice de Massa Corporal). O IMC é uma medida amplamente utilizada para avaliar se uma pessoa possui um peso saudável em relação à sua altura.
 
-## Available Scripts
+## Como Usar
+Basta preencher os campos com a sua altura e peso e clicar no botão "Calcular". O site irá processar as informações fornecidas e exibirá o valor do seu IMC juntamente com uma classificação que indica em qual faixa de peso você se encontra.
 
-In the project directory, you can run:
+## Interpretação do IMC
+O IMC pode ser interpretado de acordo com as seguintes faixas de peso:
 
-### `npm start`
+- Abaixo de 18,5: Abaixo do peso
+- Entre 18,5 e 24,9: Peso normal
+- Entre 25 e 29,9: Sobrepeso
+- Entre 30 e 34,9: Obesidade grau 1
+- Entre 35 e 39,9: Obesidade grau 2
+- Acima de 40: Obesidade grau 3 (obesidade mórbida)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Limitações do IMC
+É importante lembrar que o IMC é uma medida simplificada e não leva em consideração outros fatores importantes, como a composição corporal (proporção de gordura e massa muscular) e a distribuição da gordura no corpo. Portanto, o resultado do IMC deve ser interpretado com cautela e não é um indicador definitivo da saúde de uma pessoa.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Aviso Legal
+Este site é fornecido apenas para fins informativos e não substitui a consulta a um profissional de saúde qualificado. Sempre consulte um médico ou nutricionista antes de tomar qualquer decisão relacionada à sua saúde com base nos resultados do IMC.
 
-### `npm test`
+## 🚀 Tecnologias Utilizadas
+O site foi desenvolvido utilizando as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ReactJS: https://react.dev/learn
