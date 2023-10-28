@@ -1,0 +1,72 @@
+section {
+    display: block;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+section form label {
+    font-weight: bold;
+}
+
+section form input {
+    padding: 5px;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.res {
+    padding: 15px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.img img {
+    width: 400px;
+    margin: auto;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.muito-abaixo-do-peso {
+    color: red;
+}
+
+.abaixo-do-peso {
+    color: rgb(182, 182, 0);
+}
+
+.peso-ideal {
+    color: green;
+}
+
+.sobrepeso {
+    color: rgb(182, 182, 0);
+}
+
+.obesidade, .obesidade-severa, .obesidade-morbida {
+    color: red;
+}
